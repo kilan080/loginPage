@@ -15,6 +15,7 @@ function App() {
   
   const ProfilePage = () => {
     setIsLoggedIn(true)
+    localStorage.setItem("login", "true");
   };
 
   useEffect(() => {
