@@ -51,19 +51,19 @@ function App() {
 
           </div>
       ) : (
-        <div className='done2'>
-            <h1>Profile Page</h1>
-            <form action="">
-              <label htmlFor="">Username:</label>
-              <input type="text" />
-              <label htmlFor="">Password:</label>
-              <input type="password" name="" id="" />
-            </form>
-            <button>Contact Us</button>
-            <button>Privacy Policy</button>
-            <button onClick={ProfilePage}>LOG OUT</button>
-        </div>
-      )}
+          <div className='done2'>
+              <h1>Profile Page</h1>
+              {/* <form action="">
+                <label htmlFor="">Username:</label>
+                <input type="text" />
+                <label htmlFor="">Password:</label>
+                <input type="password" name="" id="" />
+              </form> */}
+              <button>Contact Us</button>
+              <button>Privacy Policy</button>
+              <button onClick={ProfilePage}>LOG OUT</button>
+          </div>
+        )}
       </div>
     );
 }
